@@ -8,13 +8,14 @@ const Lesson7 = () => {
     useEffect(() => {
 
         animate([
-            [scope.current, {rotate: 180}],
+            [scope.current, {rotate: 90}],
             [scope.current, {opacity: 0}],
             [scope.current, {rotate: 180}],
             [scope.current, {opacity: 1}],
             [scope.current, {rotate: 360}],
             [scope.current, {y: 200}],
             [scope.current, {y: -200}],
+            [scope.current, {y: 200}],
             [scope.current, {y: 0}],
           
         ])
